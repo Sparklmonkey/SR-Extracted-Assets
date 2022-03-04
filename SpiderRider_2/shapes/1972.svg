@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="159.5px" width="718.2px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1, 0, 0, 1, 359.1, 79.75)">
+    <path d="M-352.05 -78.25 L-352.05 78.1 352.0 78.1 352.0 -78.25 -352.05 -78.25 M-359.1 -79.75 L359.1 -79.75 359.1 79.75 -359.1 79.75 -359.1 -79.75" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+    <path d="M-352.05 -78.25 L352.0 -78.25 352.0 78.1 -352.05 78.1 -352.05 -78.25 M-336.5 -72.3 L-336.5 71.65 327.05 71.65 327.05 -72.3 -336.5 -72.3" fill="url(#gradient1)" fill-rule="evenodd" stroke="none"/>
+    <path d="M-336.5 71.65 L-336.5 -72.3 327.05 -72.3 327.05 71.65 -336.5 71.65" fill="url(#gradient2)" fill-rule="evenodd" stroke="none"/>
+    <path d="M327.05 -72.3 L-336.5 -72.3" fill="none" stroke="#3e2222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M-336.5 -72.3 L-336.5 71.65 M327.05 71.65 L327.05 -72.3" fill="none" stroke="#995353" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M-336.5 71.65 L327.05 71.65" fill="none" stroke="#dabcbc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+  </g>
+  <defs>
+    <linearGradient gradientTransform="matrix(0.0015, -0.1087, -0.0972, -0.0013, 0.0, 0.0)" gradientUnits="userSpaceOnUse" id="gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#140a0a"/>
+      <stop offset="0.9882352941176471" stop-color="#cb9494"/>
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(0.0, 0.0762, 0.3515, 0.0, 1.9, 1.9)" gradientUnits="userSpaceOnUse" id="gradient1" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#642d2d"/>
+      <stop offset="0.9882352941176471" stop-color="#452121"/>
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(0.0, -0.1006, -0.3515, 1.0E-4, -8.8, -3.75)" gradientUnits="userSpaceOnUse" id="gradient2" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#873a3a"/>
+      <stop offset="0.9882352941176471" stop-color="#3e1c1c"/>
+    </linearGradient>
+  </defs>
+</svg>

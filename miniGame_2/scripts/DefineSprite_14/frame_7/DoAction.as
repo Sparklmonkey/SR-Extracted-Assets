@@ -1,0 +1,1 @@
+pauseTime = _parent.diffLvl;

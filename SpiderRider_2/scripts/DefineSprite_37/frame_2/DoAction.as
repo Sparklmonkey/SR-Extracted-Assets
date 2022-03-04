@@ -1,0 +1,2 @@
+protectBtn.useHandCursor = false;
+play();

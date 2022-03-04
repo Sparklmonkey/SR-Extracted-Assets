@@ -1,0 +1,1 @@
+You can also issue a challenge to another player:1.  Launch the communication     console by clicking the dialog bubble.2. Select the card combat icon and     click OK.The challenge icon appears above your avatar. If a player clicks this icon, the combat system window will open and you face each other in a duel.

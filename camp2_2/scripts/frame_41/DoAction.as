@@ -1,0 +1,4 @@
+initMapHeight();
+setBtn();
+setScr();
+stop();

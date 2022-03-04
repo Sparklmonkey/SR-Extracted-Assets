@@ -1,0 +1,1 @@
+nameText = "Battle Spider";

@@ -1,0 +1,1 @@
+dungo.gotoAndStop("IDLE");

@@ -1,0 +1,3 @@
+interface UI.data.dataProfile
+{
+}

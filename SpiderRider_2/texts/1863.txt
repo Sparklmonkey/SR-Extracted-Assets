@@ -1,0 +1,1 @@
+To play games in multiplayer mode, propose a new game as follows:1.  Launch the communication     console by clicking the dialog bubble.2. Select the icon for the mini-game     you want to play and click OK.The mini-game icon appears above your avatar. If a player clicks this icon, the game window will open and you can play together.

@@ -1,0 +1,9 @@
+initMapHeight();
+setBtn();
+setScr();
+placeObject(0,12,11,"teacher",1);
+placeObject(0,17,20,"buguese",1);
+placeObject(0,22,17,"magma",1);
+placeObject(0,16,15,"bugueseMonster",1);
+placeObject(0,13,20,"aquine",1);
+stop();

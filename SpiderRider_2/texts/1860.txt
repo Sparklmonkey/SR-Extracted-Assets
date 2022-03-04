@@ -1,0 +1,1 @@
+New combat rules for duel mode:- Players have a time limit for   throwing the dice and playing their cards.- When a player cannot draw   anymore cards they automatically lose the combat.

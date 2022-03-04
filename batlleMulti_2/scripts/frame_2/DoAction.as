@@ -1,0 +1,2 @@
+bkg.useHandCursor = false;
+stop();

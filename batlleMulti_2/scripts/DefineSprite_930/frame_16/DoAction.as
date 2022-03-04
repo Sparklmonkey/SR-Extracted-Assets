@@ -1,0 +1,2 @@
+BattleSystem.CallbackDefenseIsDone();
+stop();

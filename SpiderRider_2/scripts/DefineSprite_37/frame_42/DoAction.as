@@ -1,0 +1,2 @@
+loadFct();
+delete loadFct;

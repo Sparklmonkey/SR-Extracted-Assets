@@ -1,0 +1,1 @@
+output = _parent.area;

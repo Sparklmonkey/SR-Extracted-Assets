@@ -1,0 +1,9 @@
+if(_parent._parent.showTutorial)
+{
+   gotoAndStop("open");
+   play();
+}
+else
+{
+   stop();
+}

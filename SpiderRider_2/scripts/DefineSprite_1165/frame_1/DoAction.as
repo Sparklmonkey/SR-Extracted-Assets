@@ -1,0 +1,2 @@
+stop();
+fct = null;

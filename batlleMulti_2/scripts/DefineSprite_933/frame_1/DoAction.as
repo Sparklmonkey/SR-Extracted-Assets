@@ -1,0 +1,14 @@
+this.typeSex = BattleSystem._parent.FromEngineOpponent.typeSex != "male" ? 4 : 5;
+this.typeBody = BattleSystem._parent.FromEngineOpponent.typeBody;
+this.typeLegs = BattleSystem._parent.FromEngineOpponent.typeBody;
+this.typeArmor = BattleSystem._parent.FromEngineOpponent.typeArmor;
+this.typeHair = BattleSystem._parent.FromEngineOpponent.typeHair;
+this.typeSkin = BattleSystem._parent.FromEngineOpponent.typeSkin;
+this.typeEyes = BattleSystem._parent.FromEngineOpponent.typeEyes;
+this.typeManacle = BattleSystem._parent.FromEngineOpponent.typeManacle;
+spiderChar._visible = BattleSystem._parent.FromEngineOpponent.SpiderAccess;
+spiderChar.myLegs = BattleSystem._parent.FromEngineOpponent.SpiderLegs;
+spiderChar.myHead = BattleSystem._parent.FromEngineOpponent.SpiderHead;
+spiderChar.myBody = BattleSystem._parent.FromEngineOpponent.SpiderBody;
+spiderChar.myOffset = BattleSystem._parent.FromEngineOpponent.SpiderOffset;
+gotoAndStop(typeSex - (!BattleSystem._parent.FromEngineOpponent.SpiderAccess ? 0 : 2));

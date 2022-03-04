@@ -1,0 +1,2 @@
+blocker.useHandCursor = false;
+stop();

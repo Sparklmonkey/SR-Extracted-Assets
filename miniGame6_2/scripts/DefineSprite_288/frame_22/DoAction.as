@@ -1,0 +1,13 @@
+_parent.downPanel.gotoAndPlay("open");
+mg6.init._visible = true;
+mg6.hud.char.gotoAndStop(1);
+mg6.hud.enn.gotoAndStop(1);
+mg6.char.gotoAndStop("idle");
+mg6.enn.gotoAndStop("idle");
+mg6.char._x = mg6.initCharX;
+mg6.enn._x = mg6.initEnnX;
+mg6.char._y = mg6.initCharY;
+mg6.enn._y = mg6.initEnnY;
+mg6.char._xscale = mg6.initCharXScale;
+mg6.enn._xscale = mg6.initEnnXScale;
+mg6.init.gotoAndPlay(2);

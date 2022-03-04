@@ -1,0 +1,2 @@
+refillBar();
+stop();

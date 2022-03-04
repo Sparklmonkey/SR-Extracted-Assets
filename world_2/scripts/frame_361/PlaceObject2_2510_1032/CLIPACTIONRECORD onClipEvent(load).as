@@ -1,0 +1,10 @@
+onClipEvent(load){
+   _visible = false;
+   if(root.crntEvent.id == 2)
+   {
+      if(root.crntEvent.state == "collect" || root.crntEvent.state == "sprint")
+      {
+         _visible = true;
+      }
+   }
+}

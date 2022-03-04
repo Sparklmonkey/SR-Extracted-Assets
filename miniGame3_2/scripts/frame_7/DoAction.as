@@ -1,0 +1,2 @@
+onScreen = false;
+crntEnnemy = undefined;

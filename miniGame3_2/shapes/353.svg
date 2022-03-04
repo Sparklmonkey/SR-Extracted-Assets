@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="28.25px" width="162.35px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 125.6, 8.05)">
+    <path d="M-125.6 -7.55 L36.75 -7.55 Q24.75 7.5 13.45 19.45 L13.4 19.45 13.05 19.6 -56.45 19.8 -56.45 20.0 -102.4 20.2 -115.1 4.9 -125.6 -7.55" fill="#000000" fill-opacity="0.38039216" fill-rule="evenodd" stroke="none"/>
+    <path d="M-123.55 -7.55 L-120.8 -7.55 30.7 -7.55 33.6 -7.55 Q24.5 4.55 12.7 18.35 L-72.75 18.35 -101.85 18.35 -113.65 3.95 -123.55 -7.55 M-100.95 16.05 L-102.0 14.8 -101.05 16.05 -101.0 16.1 -100.95 16.05 11.5 16.2 -100.95 16.05 M30.7 -7.55 L22.55 3.2 Q16.95 10.45 11.5 16.2 16.95 10.45 22.55 3.2 L30.7 -7.55 M-120.8 -7.55 L-111.25 3.2 -102.0 14.8 -111.25 3.2 -120.8 -7.55" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+    <path d="M11.5 16.2 Q16.95 10.45 22.55 3.2 L30.7 -7.55" fill="none" stroke="#3a1b1b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M-100.95 16.05 L11.5 16.2" fill="none" stroke="#361818" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M33.6 -7.55 Q24.5 4.55 12.7 18.35" fill="none" stroke="#bd6c6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M12.7 18.35 L-72.75 18.35" fill="none" stroke="#cd9292" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M-113.65 3.95 L-123.55 -7.55 M-102.0 14.8 L-101.05 16.05 -100.95 16.05 M-102.0 14.8 L-111.25 3.2 -120.8 -7.55" fill="none" stroke="#3a1b1b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M-72.75 18.35 L-101.85 18.35" fill="none" stroke="#b35e5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M-101.85 18.35 L-113.65 3.95" fill="none" stroke="#6f3535" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+  </g>
+  <defs>
+    <linearGradient gradientTransform="matrix(0.0107, 0.028, 0.1291, -0.029, -33.75, -3.05)" gradientUnits="userSpaceOnUse" id="gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#000000"/>
+      <stop offset="1.0" stop-color="#6d3030"/>
+    </linearGradient>
+  </defs>
+</svg>

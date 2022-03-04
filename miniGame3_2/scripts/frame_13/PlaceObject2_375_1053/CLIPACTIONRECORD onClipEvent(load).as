@@ -1,0 +1,10 @@
+onClipEvent(load){
+   if(mg3.secondPlyr)
+   {
+      gotoAndStop(mg3.gameDesc[0].h);
+   }
+   else
+   {
+      gotoAndStop(mg3.gameDesc[1].h);
+   }
+}

@@ -1,0 +1,2 @@
+var bTakeInDeck = true;
+stop();

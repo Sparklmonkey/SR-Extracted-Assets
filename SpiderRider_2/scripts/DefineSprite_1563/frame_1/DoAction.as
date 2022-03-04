@@ -1,0 +1,14 @@
+stop();
+outputFr1 = root.getInsName("txtCharSheetInf1",root.parseKitSheets);
+outputFr2 = root.getInsName("txtCharSheetInf2",root.parseKitSheets);
+outputFr3 = root.getInsName("txtCharSheetInf3",root.parseKitSheets);
+outputFr4 = root.getInsName("txtCharSheetInf4",root.parseKitSheets);
+outputFr5 = root.getInsName("txtCharSheetInf5",root.parseKitSheets);
+outputFr6 = root.getInsName("txtCharSheetInf6",root.parseKitSheets);
+outputFr7 = root.getInsName("txtCharSheetInf7",root.parseKitSheets);
+outputFr8 = root.getInsName("txtCharSheetInf8",root.parseKitSheets);
+outputFr9 = root.getInsName("txtCharSheetInf9",root.parseKitSheets);
+outputFr10 = root.getInsName("txtCharSheetInf10",root.parseKitSheets);
+outputFr11 = root.getInsName("txtCharSheetInf11",root.parseKitSheets);
+outputFr12 = root.getInsName("txtCharSheetInf12",root.parseKitSheets);
+outputFr13 = root.getInsName("txtCharSheetInf13",root.parseKitSheets);

@@ -1,0 +1,53 @@
+root.deckActive = "A";
+§§push(function findCardObj(cardNbr)
+{
+   var _loc2_ = cardNbr;
+   §§enumerate(root.cardData);
+   while(true)
+   {
+      if((var _loc0_ = §§pop()) != null)
+      {
+         var _loc1_ = _loc0_;
+         if(root.cardData[_loc1_].id == _loc2_)
+         {
+            §§push(root.cardData[_loc1_]);
+            break;
+         }
+         continue;
+      }
+      §§push(undefined);
+      break;
+   }
+   _loc0_ = _loc2_;
+   _loc2_ = _loc1_;
+   _loc1_ = §§pop();
+   return _loc0_;
+});
+if(!callScriptEnable)
+{
+   playerStats = new Object();
+   playerStats.Name = "";
+   playerStats.rank = 1;
+   playerStats.card = [];
+   playerStats.dice = 3;
+   playerStats.defense = 4;
+   playerStats.action = 3;
+   playerStats.life = 10;
+   playerStats.victory = 0;
+   playerStats.mission = 1;
+   playerStats.spider = null;
+}
+TableRank = new Array(11);
+TableRank[0] = new Array("-",0,4,3,10,0);
+TableRank[1] = new Array(getInsName("rankName1",parseKitConnect),0,5,4,15,200);
+TableRank[2] = new Array(getInsName("rankName2",parseKitConnect),0,5,5,20,1000);
+TableRank[3] = new Array(getInsName("rankName3",parseKitConnect),0,6,5,20,2600);
+TableRank[4] = new Array(getInsName("rankName4",parseKitConnect),0,6,5,25,4000);
+TableRank[5] = new Array(getInsName("rankName5",parseKitConnect),0,6,6,30,7000);
+TableRank[6] = new Array(getInsName("rankName6",parseKitConnect),0,7,6,30,12000);
+TableRank[7] = new Array(getInsName("rankName7",parseKitConnect),0,7,7,35,19500);
+TableRank[8] = new Array(getInsName("rankName8",parseKitConnect),0,8,7,35,30000);
+TableRank[9] = new Array(getInsName("rankName9",parseKitConnect),0,8,8,35,43500);
+TableRank[10] = new Array(getInsName("rankName10",parseKitConnect),0,8,9,40,58000);
+cardData = [{id:100,cTitle:"Bug Blade",dice:1,damage:1,card:0,defense:0,disarm:0,other1:1,comment:getInsName("bugBladeCmmnt",parseKitCards),cost:"200g"},{id:101,cTitle:"Arachna Needle",dice:2,damage:2,card:0,defense:0,disarm:0,other1:1,comment:getInsName("arachnaNeedleCmmnt",parseKitCards),cost:"200g"},{id:102,cTitle:"Light Impaler",dice:2,damage:2,card:0,defense:0,disarm:0,other1:1,comment:getInsName("lightImpalerCmmnt",parseKitCards),cost:"200g"},{id:103,cTitle:"Stingslinger",dice:2,damage:2,card:0,defense:0,disarm:0,other1:1,comment:getInsName("stingslingerCmmnt",parseKitCards),cost:"200g"},{id:104,cTitle:"Axial Pike",dice:3,damage:3,card:0,defense:0,disarm:0,other1:2,comment:getInsName("axialPikeCmmnt",parseKitCards),cost:"800g"},{id:105,cTitle:"Swordshot",dice:3,damage:3,card:0,defense:0,disarm:0,other1:1,comment:getInsName("swordShotCmmnt",parseKitCards),cost:"800g"},{id:106,cTitle:"The Kleaver",dice:4,damage:4,card:0,defense:0,disarm:0,other1:2,comment:getInsName("theKleaverCmmnt",parseKitCards),cost:"2600g"},{id:107,cTitle:"Balistic mace",dice:3,damage:3,card:0,defense:0,disarm:1,other1:1,comment:getInsName("balisticMaceCmmnt",parseKitCards),cost:"2000g"},{id:108,cTitle:"Boom Ball Bow",dice:3,damage:3,card:0,defense:0,disarm:1,other1:2,comment:getInsName("boomBallBowCmmnt",parseKitCards),cost:"2000g"},{id:109,cTitle:"Spider Lance",dice:3,damage:3,card:0,defense:1,disarm:0,other1:1,comment:getInsName("spiderLanceCmmnt",parseKitCards),cost:"2600g"},{id:110,cTitle:"Oracle Spear",dice:4,damage:4,card:0,defense:2,disarm:0,other1:1,comment:getInsName("oracleSpearCmmnt",parseKitCards),cost:"3000g"},{id:200,cTitle:"Heart Shield",dice:0,damage:0,card:0,defense:1,disarm:0,other1:1,comment:getInsName("heartShieldCmmnt",parseKitCards),cost:"200g"},{id:201,cTitle:"Melee Shield",dice:0,damage:0,card:0,defense:3,disarm:0,other1:1,comment:getInsName("meleeShieldCmmnt",parseKitCards),cost:"800g"},{id:202,cTitle:"Vanguard Shield",dice:0,damage:0,card:0,defense:3,disarm:0,other1:1,comment:getInsName("vanguardShieldCmmnt",parseKitCards),cost:"800g"},{id:203,cTitle:"Skirmish Shield",dice:0,damage:0,card:0,defense:2,disarm:0,other1:1,comment:getInsName("skirmishShieldCmmnt",parseKitCards),cost:"400g"},{id:204,cTitle:"Jousting Shield",dice:0,damage:0,card:0,defense:5,disarm:0,other1:1,comment:getInsName("joustingShieldCmmnt",parseKitCards),cost:"3000g"},{id:205,cTitle:"Assault Shield",dice:0,damage:0,card:0,defense:6,disarm:0,other1:0,comment:getInsName("assaultShieldCmmnt",parseKitCards),cost:"3000g"},{id:206,cTitle:"Rider Scale",dice:0,damage:0,card:0,defense:6,disarm:0,other1:0,comment:getInsName("riderScaleCmmnt",parseKitCards),cost:"1800g"},{id:207,cTitle:"Spider Armor",dice:0,damage:0,card:0,defense:3,disarm:0,other1:0,comment:getInsName("spiderArmorCmmnt",parseKitCards),cost:"800g"},{id:208,cTitle:"Elite Plate Armor",dice:0,damage:0,card:0,defense:8,disarm:0,other1:0,comment:getInsName("elitePlateArmorCmmnt",parseKitCards),cost:"3600g"},{id:300,cTitle:"Red Manacle",dice:1,damage:1,card:0,defense:0,disarm:0,other1:0,comment:getInsName("redManacleCmmnt",parseKitCards),cost:"200g"},{id:301,cTitle:"Blue Manacle",dice:0,damage:0,card:0,defense:4,disarm:0,other1:0,comment:getInsName("blueManacleCmmnt",parseKitCards),cost:"1500g"},{id:303,cTitle:"Spy",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("spyCmmnt",parseKitCards),cost:"300g"},{id:304,cTitle:"Bug zapper",dice:1,damage:1,card:0,defense:0,disarm:0,other1:1,comment:getInsName("bugZapperCmmnt",parseKitCards),cost:"200g"},{id:400,cTitle:"Fail",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("failCmmnt",parseKitCards),cost:"100g"},{id:401,cTitle:"Evasion",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("evasionCmmnt",parseKitCards),cost:"300g"},{id:402,cTitle:"Trap",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("trapCmmnt",parseKitCards),cost:"600g"},{id:403,cTitle:"False order",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("falseOrderCmmnt",parseKitCards),cost:"100g"},{id:404,cTitle:"Luck",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("luckCmmnt",parseKitCards),cost:"50g"},{id:405,cTitle:"Disarm",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("disarmCmmnt",parseKitCards),cost:"200g"},{id:406,cTitle:"Web trap",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("webTrapCmmnt",parseKitCards),cost:"1000g"},{id:407,cTitle:"Shadow",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("shadowCmmnt",parseKitCards),cost:"200g"},{id:408,cTitle:"Positive attitude",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("positiveAttitudeCmmnt",parseKitCards),cost:"4000g"},{id:409,cTitle:"Lightning bolt",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("lightningBoltCmmnt",parseKitCards),cost:"3000g"},{id:410,cTitle:"Weapon master",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("weaponMasterCmmnt",parseKitCards),cost:"100g"},{id:411,cTitle:"Boost blaze",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("boostBlazeCmmnt",parseKitCards),cost:"200g"},{id:412,cTitle:"Light of the Oracle",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("lightOfTheOracleCmmnt",parseKitCards),cost:"N/Ag"},{id:413,cTitle:"Blessing",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("blessingCmmnt",parseKitCards),cost:"600g"},{id:414,cTitle:"Cutie pie",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("cutiePieCmmnt",parseKitCards),cost:"1600g"},{id:415,cTitle:"Rider Master",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("riderMasterCmmnt",parseKitCards),cost:"2000g"},{id:416,cTitle:"Shield Master",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("shieldMasterCmmnt",parseKitCards),cost:"2000g"},{id:302,cTitle:"Yellow Manacle",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("yellowManacleCmmnt",parseKitCards),cost:"100g"},{id:417,cTitle:"Sparkle help",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("sparkleHelpCmmnt",parseKitCards),cost:"100g"},{id:418,cTitle:"Sanctuary",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("sanctuaryCmmnt",parseKitCards),cost:"400g"},{id:419,cTitle:"Gift from Oracle",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("giftFromOracleCmmnt",parseKitCards),cost:"2000g"},{id:420,cTitle:"Oracle\'s fury",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("oraclesFuryCmmnt",parseKitCards),cost:"2000g"},{id:421,cTitle:"Invasion",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("invasionCmmnt",parseKitCards),cost:"400g"},{id:500,cTitle:"Bounce",dice:1,damage:1,card:0,defense:0,disarm:0,other1:0,comment:getInsName("bounceCmmnt",parseKitCards),cost:"N/Ag"},{id:501,cTitle:"Impact",dice:1,damage:1,card:0,defense:0,disarm:0,other1:0,comment:getInsName("impactCmmnt",parseKitCards),cost:"N/Ag"},{id:502,cTitle:"Boo!",dice:2,damage:2,card:0,defense:0,disarm:0,other1:0,comment:getInsName("booCmmnt",parseKitCards),cost:"100g"},{id:503,cTitle:"Surprise Attack",dice:2,damage:2,card:0,defense:0,disarm:0,other1:0,comment:getInsName("surpriseAttackCmmnt",parseKitCards),cost:"100g"},{id:504,cTitle:"Starburst",dice:2,damage:2,card:0,defense:0,disarm:0,other1:0,comment:getInsName("starburstCmmnt",parseKitCards),cost:"100g"},{id:505,cTitle:"Deep Freeze",dice:3,damage:3,card:0,defense:0,disarm:0,other1:0,comment:getInsName("deepFreezeCmmnt",parseKitCards),cost:"300g"},{id:506,cTitle:"Super Size",dice:3,damage:3,card:0,defense:0,disarm:0,other1:0,comment:getInsName("superSizeCmmnt",parseKitCards),cost:"300g"},{id:507,cTitle:"Poison fang",dice:4,damage:4,card:0,defense:0,disarm:0,other1:0,comment:getInsName("poisonFangCmmnt",parseKitCards),cost:"600g"},{id:508,cTitle:"Barbecue",dice:5,damage:5,card:0,defense:0,disarm:0,other1:0,comment:getInsName("barbecueCmmnt",parseKitCards),cost:"1000g"},{id:509,cTitle:"Intervention",dice:7,damage:7,card:0,defense:0,disarm:0,other1:0,comment:getInsName("interventionCmmnt",parseKitCards),cost:"1400g"},{id:510,cTitle:"Warrior path",dice:8,damage:8,card:0,defense:0,disarm:0,other1:0,comment:getInsName("warriorPathCmmnt",parseKitCards),cost:"2000g"},{id:511,cTitle:"Arachna power",dice:10,damage:10,card:0,defense:0,disarm:0,other1:0,comment:getInsName("arachnaPowerCmmnt",parseKitCards),cost:"3000g"},{id:600,cTitle:"Red Oracle key",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("redOracleKeyCmmnt",parseKitCards),cost:"1600g"},{id:601,cTitle:"Green Oracle key",dice:0,damage:0,card:0,defense:0,disarm:0,other1:0,comment:getInsName("greenOracleKeyCmmnt",parseKitCards),cost:"1600g"}];
+cheat = false;

@@ -1,0 +1,1 @@
+BOOST : Adds a bonus to your attackEQUIPMENT : Permanent card that adds different bonuses.BATTLE ACTION : Strategy card

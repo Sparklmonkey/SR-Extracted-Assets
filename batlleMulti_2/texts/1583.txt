@@ -1,0 +1,3 @@
+It also indicates the number of dice 
+--- RECORDSEPARATOR ---
+you can play for a better result.

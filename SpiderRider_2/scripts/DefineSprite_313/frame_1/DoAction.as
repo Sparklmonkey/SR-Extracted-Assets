@@ -1,0 +1,1 @@
+wordTxt.text = word;

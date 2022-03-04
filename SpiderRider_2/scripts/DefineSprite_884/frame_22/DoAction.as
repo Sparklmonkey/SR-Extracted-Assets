@@ -1,0 +1,2 @@
+fct();
+txtBtn.enabled = false;

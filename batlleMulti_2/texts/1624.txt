@@ -1,0 +1,5 @@
+If all 7 spaces are used, discard one of 
+--- RECORDSEPARATOR ---
+your cards in the trash bin to make 
+--- RECORDSEPARATOR ---
+room for your new card.

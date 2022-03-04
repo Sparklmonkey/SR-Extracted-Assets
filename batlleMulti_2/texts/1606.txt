@@ -1,0 +1,3 @@
+To select a card, drag a dice 
+--- RECORDSEPARATOR ---
+on a card of the same color.

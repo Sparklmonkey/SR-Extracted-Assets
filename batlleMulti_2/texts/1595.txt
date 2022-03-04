@@ -1,0 +1,5 @@
+A yellow die allows you to 
+--- RECORDSEPARATOR ---
+play a yellow card that 
+--- RECORDSEPARATOR ---
+causes more damage.

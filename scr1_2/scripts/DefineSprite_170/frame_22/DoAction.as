@@ -1,0 +1,2 @@
+endFct();
+endFct = null;

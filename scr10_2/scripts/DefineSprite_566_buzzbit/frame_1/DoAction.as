@@ -1,0 +1,1 @@
+monster.gotoAndStop("IDLE");

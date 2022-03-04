@@ -1,0 +1,1 @@
+delete nr_nc;

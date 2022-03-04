@@ -1,0 +1,1 @@
+Finding an objectTo pick up an object, position your character on the corresponding square. The objects you find appear in your inventory. 

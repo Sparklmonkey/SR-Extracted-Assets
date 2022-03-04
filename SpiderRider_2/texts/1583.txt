@@ -1,0 +1,1 @@
+A Guild represents a group of players who work together in the Arachna Kingdom. Joining a Guild gives you special armor and cards for your deck.   It also gives you access to events where you can win prizes.You can choose between 4 Guilds

@@ -1,0 +1,1 @@
+InventoryTo open your inventory, click on the backpack icon located in the bar on the left at the top of the screen. When the inventory is open, click on the object you wish to place. The inventory will disappear to allow you to place the object.

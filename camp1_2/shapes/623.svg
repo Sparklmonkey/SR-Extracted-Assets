@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="42.5px" width="37.95px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 8.15, 40.35)">
+    <path d="M28.85 -9.85 Q30.3 -9.6 29.55 -8.55 L21.25 1.25 Q20.25 2.4 16.8 2.05 L-1.45 -0.55 Q-3.55 -0.5 -2.3 -2.15 L12.55 -11.95 14.4 -12.5 28.85 -9.85" fill="#3c1a3a" fill-rule="evenodd" stroke="none"/>
+    <path d="M25.5 -36.95 L26.2 -36.7 26.3 -36.1 18.1 -6.65 17.6 -6.0 16.7 -5.85 -5.15 -8.6 -5.4 -8.65 -5.75 -8.95 Q-5.95 -9.25 -5.8 -9.65 L4.45 -37.35 4.95 -37.85 5.65 -38.05 25.5 -36.95" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+    <path d="M27.95 -38.3 L28.1 -37.75 18.95 -5.0 Q18.85 -4.5 18.4 -4.25 17.95 -3.95 17.45 -4.05 L-6.8 -7.1 -7.15 -7.15 -7.5 -7.5 Q-7.75 -7.8 -7.55 -8.25 L3.8 -39.05 4.35 -39.6 5.15 -39.85 27.2 -38.65 27.95 -38.3 M25.5 -36.95 L5.65 -38.05 4.95 -37.85 4.45 -37.35 -5.8 -9.65 Q-5.95 -9.25 -5.75 -8.95 L-5.4 -8.65 -5.15 -8.6 16.7 -5.85 17.6 -6.0 18.1 -6.65 26.3 -36.1 26.2 -36.7 25.5 -36.95" fill="url(#gradient1)" fill-rule="evenodd" stroke="none"/>
+    <path d="M27.95 -38.3 L27.2 -38.65 5.15 -39.85 4.35 -39.6 3.8 -39.05 -7.55 -8.25 Q-7.75 -7.8 -7.5 -7.5 L-7.15 -7.15 -6.8 -7.1 17.45 -4.05 Q17.95 -3.95 18.4 -4.25 18.85 -4.5 18.95 -5.0 L28.1 -37.75 27.95 -38.3 Z" fill="none" stroke="#810a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M28.1 -37.75 L27.95 -38.3 27.2 -38.65 5.15 -39.85 4.35 -39.6 3.8 -39.05 -7.55 -8.25 Q-7.75 -7.8 -7.5 -7.5 L-7.15 -7.15" fill="none" stroke="#810a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+  </g>
+  <defs>
+    <linearGradient gradientTransform="matrix(0.006, -0.0167, 0.0135, 0.0049, 11.2, -22.2)" gradientUnits="userSpaceOnUse" id="gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#c52173"/>
+      <stop offset="1.0" stop-color="#6f1542"/>
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(0.0065, -0.0196, 0.016, 0.0053, 9.7, -18.1)" gradientUnits="userSpaceOnUse" id="gradient1" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#dc730a"/>
+      <stop offset="1.0" stop-color="#f54114"/>
+    </linearGradient>
+  </defs>
+</svg>

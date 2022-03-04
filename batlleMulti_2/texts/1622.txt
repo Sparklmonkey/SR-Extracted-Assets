@@ -1,0 +1,5 @@
+You will be dealt a new card at the 
+--- RECORDSEPARATOR ---
+beginning of every turn until there are 
+--- RECORDSEPARATOR ---
+no more cards left in your deck.

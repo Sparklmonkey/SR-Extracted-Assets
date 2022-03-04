@@ -1,0 +1,1 @@
+A white dice is worth 0 points.

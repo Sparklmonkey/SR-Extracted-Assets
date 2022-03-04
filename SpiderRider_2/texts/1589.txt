@@ -1,0 +1,1 @@
+Moving your characterTo move your character, simply click on a square. A white square indicates where the character will go.

@@ -1,0 +1,12 @@
+stop();
+outputFr1 = root.getInsName("txtCardDirInf1",root.parseKitSheets);
+outputFr2 = root.getInsName("txtCardDirInf2",root.parseKitSheets);
+outputFr3 = root.getInsName("txtCardDirInf3",root.parseKitSheets);
+outputFr4 = root.getInsName("txtCardDirInf4",root.parseKitSheets);
+outputFr5 = root.getInsName("txtCardDirInf5",root.parseKitSheets);
+outputFr6 = root.getInsName("txtCardDirInf6",root.parseKitSheets);
+outputFr7 = root.getInsName("txtCardDirInf7",root.parseKitSheets);
+outputFr8 = root.getInsName("txtCardDirInf8",root.parseKitSheets);
+outputFr9 = root.getInsName("txtCardDirInf9",root.parseKitSheets);
+outputFr10 = root.getInsName("txtCardDirInf10",root.parseKitSheets);
+outputFr11 = root.getInsName("txtCardDirInf11",root.parseKitSheets);

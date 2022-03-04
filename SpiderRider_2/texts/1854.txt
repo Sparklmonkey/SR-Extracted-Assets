@@ -1,0 +1,1 @@
+If a player clicks this icon, the trading window will open and you can:1.  Select the cards you want to trade.2. Select the cards you want from the      other player.3. Click the OFFER button to launch      the trade.4. The other player then clicks to ACCEPT     or OFFER to offer something else.

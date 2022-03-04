@@ -1,0 +1,1 @@
+msgTxt.text = this.msg;

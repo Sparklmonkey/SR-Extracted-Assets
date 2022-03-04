@@ -1,0 +1,14 @@
+txtTabRank.text = root.getInsName("txtTabRank",root.parseKitSheets);
+txtTabTitle.text = root.getInsName("txtTabTitle",root.parseKitSheets);
+txtTabHP.text = root.getInsName("txtTabHP",root.parseKitSheets);
+txtTabVicPts.text = root.getInsName("txtTabVicPts",root.parseKitSheets);
+txtTabTrainee.text = root.getInsName("txtTabTrainee",root.parseKitSheets);
+txtTabScout.text = root.getInsName("txtTabScout",root.parseKitSheets);
+txtTabRider.text = root.getInsName("txtTabRider",root.parseKitSheets);
+txtTabWarrior.text = root.getInsName("txtTabWarrior",root.parseKitSheets);
+txtTabCaptain.text = root.getInsName("txtTabCaptain",root.parseKitSheets);
+txtTabKnight.text = root.getInsName("txtTabKnight",root.parseKitSheets);
+txtTabCommandant.text = root.getInsName("txtTabCommandant",root.parseKitSheets);
+txtTabCrusader.text = root.getInsName("txtTabCrusader",root.parseKitSheets);
+txtTabChampion.text = root.getInsName("txtTabChampion",root.parseKitSheets);
+txtTabHero.text = root.getInsName("txtTabHero",root.parseKitSheets);

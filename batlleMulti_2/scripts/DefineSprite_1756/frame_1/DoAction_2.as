@@ -1,0 +1,105 @@
+var version = "1.0";
+var index = 0;
+var time = 0;
+var frame = 0;
+var nextDepth = 1000;
+var indexDice = 0;
+var indexCard = 0;
+var dice = new Object();
+var column = 0;
+var row = 0;
+var IsStarted = false;
+var IsBattleOver = false;
+var IsVictory = false;
+var IsWinner = false;
+var IsDraging = false;
+var HasMouseReleased = false;
+var Dices = new Array(0);
+var DragedCard = null;
+var DragedDice = null;
+var Encounter = new Object();
+var CurrentPlayer = TURN_NONE;
+var CurrentAttack = new Object();
+CurrentAttack.Dice = 0;
+CurrentAttack.Defence = 0;
+CurrentAttack.Action = 0;
+var FullCardDeck = new Array(100,101,200,206,301,406,500,502,503,504,505,506);
+var LastActionDamage = 0;
+var Dices = new Array();
+var DiceRed = 0;
+var DiceBlue = 0;
+var Winner = NONE;
+var VictoryPoint = 0;
+var WaitCallback = null;
+var AnimIsDone = true;
+var AttackIsDone = true;
+var DefenceIsDone = true;
+var VoidCard = new Object();
+VoidCard.ID = 0;
+VoidCard.Name = "Void Card";
+VoidCard.Effect = "No Effect";
+VoidCard.Dice = 0;
+VoidCard.Defence = 0;
+VoidCard.Action = 0;
+VoidCard.LifePoint = 0;
+VoidCard.VictoryPoint = 0;
+var delayRemoveDice = 100;
+var delayDiceMove = 100;
+var delayCardMove = 300;
+var intervalID = 0;
+var intervalIDDepecheToi = 0;
+var intervalIDFGSO = 0;
+var intervalIDInitFGSO = 0;
+var intervalIDAttackFGSO = 0;
+var bHaveReceiveReceipt = false;
+var bHaveReceiveReceiptAttack = false;
+var bHaveReceiveAttack = false;
+var bFinishToDrawMyself = false;
+var objCurrentAttack = new Object();
+var IsFirstBattle = false;
+if(_parent.initFirstBattle == undefined)
+{
+   IsFirstBattle = true;
+   if(root.playerStats.mission == 2)
+   {
+      _parent.initFirstBattle = true;
+   }
+   else if(root.playerStats.mission > 2)
+   {
+      _parent.initFirstBattle = false;
+      IsFirstBattle = false;
+   }
+}
+IsFirstBattle = !BATTLESYSTEM_DEBUG ? IsFirstBattle : false;
+var IsDiceReady = false;
+var DragLocked = false;
+var CardInHand = 0;
+var IndexCardDeal = 0;
+var CardOnTop = true;
+var addLifePoint = 0;
+var WhiteDice = 0;
+var YellowDicesUsed = 0;
+var MalusPlayer = 0;
+var MalusOpponent = 0;
+var DefendMalusPlayer = 0;
+var DefendMalusOpponent = 0;
+var wpnMasterEq = false;
+var bstBlazeEq = false;
+var LghtOracleEq = false;
+var SprklHelpEq = false;
+var yellowManacle = false;
+var blessingEq = false;
+var giftOracleEq = false;
+var riderMasterEq = false;
+var shldMasterEq = false;
+var CutiePieEq = false;
+var bPlayerDisconnect = false;
+var bIsDraw = false;
+var bHaveSaidTwoCardRemaining = false;
+var bHaveSaidOneCardRemaining = false;
+var hasSpider = root.sprAccess;
+var LastActivatedCardSocket = null;
+var CardsIDToKill = "";
+var tabCardsToUse = new Array();
+var strCardsToKill = "";
+var DefPlus = 0;

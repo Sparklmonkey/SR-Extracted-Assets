@@ -1,0 +1,1 @@
+protectBtn.useHandCursor = false;

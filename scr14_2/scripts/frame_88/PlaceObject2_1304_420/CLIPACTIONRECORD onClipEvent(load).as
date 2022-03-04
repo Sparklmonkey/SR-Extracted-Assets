@@ -1,0 +1,20 @@
+onClipEvent(load){
+   _visible = false;
+   fct = function()
+   {
+      game.neckless = 3;
+      game.char.char.gotoAndStop("pickUp");
+      game.char.char.pickUpFct = function()
+      {
+         game.itemContainer.gold1._visible = false;
+         delete game.char.char.pickUpFct;
+      };
+      game.char.char.pickUpFct();
+      game.addObject("gold");
+      game.unregisterWalkZone(this);
+   };
+   if(game.neckless == 2)
+   {
+      game.registerWalkZone(this);
+   }
+}

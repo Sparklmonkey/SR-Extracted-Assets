@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="304.85px" width="231.0px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 116.85, 123.6)">
+    <path d="M-109.0 -103.7 L-108.95 -103.75 -108.65 -103.95 -109.0 -103.95 -109.0 -103.7 M112.55 -112.3 L112.85 -111.6 112.85 180.25 112.55 180.95 111.85 181.25 -115.85 181.25 -116.55 180.95 -116.85 180.25 -116.85 -111.6 -116.55 -112.3 -115.85 -112.6 111.85 -112.6 112.55 -112.3 M104.05 -103.75 L104.05 -103.95 103.8 -103.95 104.05 -103.75" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+    <path d="M-108.7 162.55 L106.35 162.55 106.35 -115.95 -108.7 -115.95 -108.7 162.55 M-114.55 169.25 L-114.55 -122.6 113.15 -122.6 113.15 169.25 -114.55 169.25" fill="url(#gradient1)" fill-rule="evenodd" stroke="none"/>
+    <path d="M104.65 161.15 L-106.95 161.15 -106.95 -114.05 104.65 -114.05 104.65 161.15" fill="url(#gradient2)" fill-rule="evenodd" stroke="none"/>
+    <path d="M-108.7 162.55 L-108.7 -115.95 106.35 -115.95 M-114.55 -122.6 L113.15 -122.6" fill="none" stroke="#b14e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M113.15 -122.6 L113.15 169.25" fill="none" stroke="#5a2929" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M-114.55 169.25 L-114.55 -122.6" fill="none" stroke="#813a3a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M106.35 -115.95 L106.35 162.55" fill="none" stroke="#9e4747" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M106.35 162.55 L-108.7 162.55" fill="none" stroke="#8e4040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M113.15 169.25 L-114.55 169.25" fill="none" stroke="#200f0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M104.65 -114.05 L104.65 161.15" fill="none" stroke="#100707" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M-106.95 161.15 L-106.95 -114.05 104.65 -114.05" fill="none" stroke="#100707" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M104.65 161.15 L-106.95 161.15" fill="none" stroke="#411f1f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+  </g>
+  <defs>
+    <linearGradient gradientTransform="matrix(0.0, 0.0466, -0.1789, 1.0E-4, -0.75, 144.75)" gradientUnits="userSpaceOnUse" id="gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.01568627450980392" stop-color="#060c17" stop-opacity="0.56078434"/>
+      <stop offset="1.0" stop-color="#0a0b14" stop-opacity="0.34117648"/>
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(-0.1336, -0.0697, 0.0912, -0.1866, 16.65, 20.8)" gradientUnits="userSpaceOnUse" id="gradient1" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#000000"/>
+      <stop offset="1.0" stop-color="#6d3030"/>
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(-0.0156, -0.1313, 0.201, -0.0238, -97.6, 82.9)" gradientUnits="userSpaceOnUse" id="gradient2" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#532626"/>
+      <stop offset="1.0" stop-color="#a94949"/>
+    </linearGradient>
+  </defs>
+</svg>

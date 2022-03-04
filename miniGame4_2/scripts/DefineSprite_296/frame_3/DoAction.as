@@ -1,0 +1,1 @@
+oCMG.mcFx.gotoAndPlay("clic");

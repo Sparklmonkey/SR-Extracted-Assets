@@ -1,0 +1,1 @@
+Placing an objectTo place an object from your inventory, simply click on the screen. Stars indicate where the placement zones are located. When an object is placed in the wrong spot, it is automatically sent back to the inventory.

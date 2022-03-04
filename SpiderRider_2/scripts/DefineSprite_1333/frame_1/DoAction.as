@@ -1,0 +1,1 @@
+gotoAndStop(mainChar.typeBody);

@@ -1,0 +1,2 @@
+showCard(pageNb);
+stop();

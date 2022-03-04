@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="40.15px" width="329.55px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 120.8, 19.95)">
+    <path d="M99.55 -19.55 L99.55 -19.65 178.95 -19.95 179.25 -19.85 179.45 -19.5 179.45 -19.45 179.35 -19.15 Q162.6 3.1 147.1 19.45 L147.05 19.45 146.7 19.6 107.2 19.8 107.2 20.0 -57.75 20.2 -70.45 4.9 Q-79.2 -5.65 -90.4 -18.5 L-90.55 -18.85 -90.4 -19.2 -90.35 -19.2 -90.05 -19.35 99.55 -19.55" fill="#000000" fill-opacity="0.38039216" fill-rule="evenodd" stroke="none"/>
+    <path d="M181.15 16.2 Q186.55 10.5 192.2 3.2 L203.7 -12.05 192.2 3.2 Q186.55 10.5 181.15 16.2 L-91.8 16.05 181.15 16.2 M-91.9 16.05 L-91.85 16.1 -91.8 16.05 -92.85 14.8 -91.9 16.05 M-115.9 -12.25 L-115.2 -11.35 Q-106.2 -1.75 -102.1 3.2 -98.25 7.85 -92.85 14.8 -98.25 7.85 -102.1 3.2 -106.2 -1.75 -115.2 -11.35 L-115.9 -12.25 203.7 -12.05 -115.9 -12.25 M182.35 18.35 L94.9 18.35 -92.7 18.35 -104.5 3.95 -120.3 -14.35 208.25 -14.35 Q197.25 0.95 182.35 18.35" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+    <path d="M203.7 -12.05 L192.2 3.2 Q186.55 10.5 181.15 16.2" fill="none" stroke="#3a1b1b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M-115.9 -12.25 L203.7 -12.05" fill="none" stroke="#1e0d0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M181.15 16.2 L-91.8 16.05" fill="none" stroke="#361818" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M208.25 -14.35 Q197.25 0.95 182.35 18.35" fill="none" stroke="#bd6c6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M182.35 18.35 L94.9 18.35" fill="none" stroke="#cd9292" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M-120.3 -14.35 L208.25 -14.35" fill="none" stroke="#b15252" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M-91.9 16.05 L-92.85 14.8 Q-98.25 7.85 -102.1 3.2 -106.2 -1.75 -115.2 -11.35 L-115.9 -12.25 M-104.5 3.95 L-120.3 -14.35 M-91.8 16.05 L-91.9 16.05" fill="none" stroke="#3a1b1b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M94.9 18.35 L-92.7 18.35" fill="none" stroke="#b35e5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    <path d="M-92.7 18.35 L-104.5 3.95" fill="none" stroke="#6f3535" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+  </g>
+  <defs>
+    <linearGradient gradientTransform="matrix(0.0024, 0.0148, 0.1322, -0.002, 101.05, 7.1)" gradientUnits="userSpaceOnUse" id="gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#000000"/>
+      <stop offset="1.0" stop-color="#6d3030"/>
+    </linearGradient>
+  </defs>
+</svg>

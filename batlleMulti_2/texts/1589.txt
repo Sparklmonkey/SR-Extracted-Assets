@@ -1,0 +1,5 @@
+A red die gives 
+--- RECORDSEPARATOR ---
+you an extra 
+--- RECORDSEPARATOR ---
+attack point.

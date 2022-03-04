@@ -1,0 +1,10 @@
+initMapHeight();
+setBtn();
+setScr();
+placeObject(0,19,21,"corona",1);
+placeObject(0,11,17,"buguese",1);
+placeObject(0,10,18,"aquine",1);
+placeObject(0,21,19,"magma",1);
+placeObject(0,20,20,"igneous",1);
+placeObject(0,16,14,"scarab",1);
+stop();

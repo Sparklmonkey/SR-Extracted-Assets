@@ -1,0 +1,11 @@
+Move :
+--- RECORDSEPARATOR ---
+hit = punch
+--- RECORDSEPARATOR ---
+hold hit + release= uppercut
+--- RECORDSEPARATOR ---
+down+hit = low blow
+--- RECORDSEPARATOR ---
+jump(mid air)+hit = jump attack
+--- RECORDSEPARATOR ---
+right+right+hit = spear

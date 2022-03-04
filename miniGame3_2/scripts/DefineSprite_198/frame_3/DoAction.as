@@ -1,0 +1,2 @@
+stop();
+bug.gotoAndPlay("show");

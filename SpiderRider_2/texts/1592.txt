@@ -1,0 +1,1 @@
+ArrowsWhen an arrow appears, it indicates a passageway. A passageway may be blocked. To open it, your character must either defeat an enemy or find an object to place in that location.

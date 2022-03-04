@@ -1,0 +1,14 @@
+txtNameMG1 = root.getInsName("txtMiniG1",root.parseKitVisual);
+txtNameMG2 = root.getInsName("txtMiniG2",root.parseKitVisual);
+txtNameMG3 = root.getInsName("txtMiniG3",root.parseKitVisual);
+txtNameMG4 = root.getInsName("txtMiniG4",root.parseKitVisual);
+txtNameMG5 = root.getInsName("txtMiniG5",root.parseKitVisual);
+txtNameMG6 = root.getInsName("txtMiniG6",root.parseKitVisual);
+txtDescMG1 = root.getInsName("txtMiniG1Desc",root.parseKitVisual);
+txtDescMG2 = root.getInsName("txtMiniG2Desc",root.parseKitVisual);
+txtDescMG3 = root.getInsName("txtMiniG3Desc",root.parseKitVisual);
+txtDescMG4 = root.getInsName("txtMiniG4Desc",root.parseKitVisual);
+txtDescMG5 = root.getInsName("txtMiniG5Desc",root.parseKitVisual);
+txtDescMG6 = root.getInsName("txtMiniG6Desc",root.parseKitVisual);
+txtMGTitle = root.getInsName("txtMiniGTitle",root.parseKitVisual);
+stop();
